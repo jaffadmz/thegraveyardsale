@@ -21,6 +21,14 @@
 		box-sizing: border-box;
 		border: none;
 	}
+	#main
+	{         
+	    position:fixed;
+	    top:0px;
+	    bottom:0px;
+	    left:0px;
+	    right:0px;
+	}
 	#Web_1920__1 {
 		position: absolute;
 		width: 1920px;
@@ -3165,14 +3173,5 @@ window.application = new Application();
 		</div>
 	</div>
 </div>
-	<script language="javascript">
-		function autoResizeDiv()
-		{
-		    document.getElementById('main').style.height = window.innerHeight +'px';
-		}
-		window.onresize = autoResizeDiv;
-		autoResizeDiv();
-	</script>
 </body>
-	
 </html>
